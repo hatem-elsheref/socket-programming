@@ -118,7 +118,7 @@ public class FileTransfer {
                    Scanner scanner = new Scanner(System.in);
 
                     boolean state = true;
-                   switch ((scanner.nextLine()).toLowerCase(Locale.ROOT)){
+                   switch ((scanner.nextLine()).toLowerCase()){
                        case "y":
                            writer.writeUTF("accept");
                            break;
